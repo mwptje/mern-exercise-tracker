@@ -12,7 +12,12 @@ Learn the MERN stack by building an exercise tracker application in this complet
 
 🔗Article version: [https://medium.com/@beaucarnes/learn-...](https://www.youtube.com/redirect?event=video_description&v=7CqJlxBYj-M&q=https%3A%2F%2Fmedium.com%2F%40beaucarnes%2Flearn-the-mern-stack-by-building-an-exercise-tracker-mern-tutorial-59c13c1237a1&redir_token=azdMO3Fk3_pw9aWZcmelcR6wB158MTU4ODY2MzAwMkAxNTg4NTc2NjAy) 
 
-
+- Running the backend: 
+  - cd backend
+  - nodemon server
+- Runing the frontend
+  - npm start
+  - app can be accessed at http://localhost:5000/
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
