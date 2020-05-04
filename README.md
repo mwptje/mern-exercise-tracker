@@ -1,3 +1,19 @@
+# Mern Exercise Tracker
+
+Following Beau Carne's FreeCodeCamp Youtube video course:
+
+**Learn the MERN Stack - Full Tutorial (MongoDB, Express, React, Node.js)**
+
+📺 [https://www.youtube.com/watch?v=7CqJlxBYj](https://www.youtube.com/watch?v=7CqJlxBYj)
+
+Learn the MERN stack by building an exercise tracker application in this complete tutorial course. You will learn the basics of MongoDB, Express, React, Node.js, and Mongoose.  Tutorial developed by Beau Carnes.
+
+💻Code: [https://github.com/beaucarnes/mern-ex...](https://www.youtube.com/redirect?event=video_description&v=7CqJlxBYj-M&q=https%3A%2F%2Fgithub.com%2Fbeaucarnes%2Fmern-exercise-tracker-mongodb&redir_token=azdMO3Fk3_pw9aWZcmelcR6wB158MTU4ODY2MzAwMkAxNTg4NTc2NjAy) 
+
+🔗Article version: [https://medium.com/@beaucarnes/learn-...](https://www.youtube.com/redirect?event=video_description&v=7CqJlxBYj-M&q=https%3A%2F%2Fmedium.com%2F%40beaucarnes%2Flearn-the-mern-stack-by-building-an-exercise-tracker-mern-tutorial-59c13c1237a1&redir_token=azdMO3Fk3_pw9aWZcmelcR6wB158MTU4ODY2MzAwMkAxNTg4NTc2NjAy) 
+
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
@@ -66,4 +82,5 @@ This section has moved here: https://facebook.github.io/create-react-app/docs/de
 ### `npm run build` fails to minify
 
 This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
-# mern-exercise-tracker
+
+# 

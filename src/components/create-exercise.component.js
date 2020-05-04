@@ -1,5 +1,8 @@
 import React, { Component } from "react";
-import DatePicker from "react-datepicker";
+import DatePicker, { registerLocale } from "react-datepicker";
+import nl from "date-fns/locale/nl";
+import axios from "axios";
+
 import "react-datepicker/dist/react-datepicker.css";
 
 export default class CreateExercise extends Component {
@@ -20,12 +23,17 @@ export default class CreateExercise extends Component {
     this.onChangeUsername = this.onChangeUsername.bind(this);
     this.onChangeDuration = this.onChangeDuration.bind(this);
     this.onSubmit = this.onSubmit.bind(this);
+    registerLocale("nl", nl);
   }
   // for testing add a dummy user , this will change later
   componentDidMount() {
-    this.setState({
-      users: ["test user"],
-      username: "test user",
+    axios.get("http://localhost:5000/users/").then((res) => {
+      if (res.data.length > 0) {
+        this.setState({
+          users: res.data.map((user) => user.username),
+          username: res.data[0].username,
+        });
+      }
     });
   }
   // onChangeUsername
@@ -62,6 +70,10 @@ export default class CreateExercise extends Component {
       date: this.state.date,
     };
     console.log(exercise);
+    // connect to the backend
+    axios
+      .post("http://localhost:5000/exercises/add", exercise)
+      .then(console.log("Exercise added: ", exercise));
     // return to / -> list of exercises
     window.location = "/";
   }
@@ -113,6 +125,8 @@ export default class CreateExercise extends Component {
             <label>Date: </label>
             <div>
               <DatePicker
+                locale="nl"
+                dateFormat="dd-MM-yyyy"
                 selected={this.state.date}
                 onChange={this.onChangeDate}
               />
