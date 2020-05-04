@@ -4,7 +4,7 @@ Following Beau Carne's FreeCodeCamp Youtube video course:
 
 **Learn the MERN Stack - Full Tutorial (MongoDB, Express, React, Node.js)**
 
-📺 [https://www.youtube.com/watch?v=7CqJlxBYj](https://www.youtube.com/watch?v=7CqJlxBYj)
+📺 [https://www.youtube.com/watch?v=7CqJlxBYj-M](https://www.youtube.com/watch?v=7CqJlxBYj-M)
 
 Learn the MERN stack by building an exercise tracker application in this complete tutorial course. You will learn the basics of MongoDB, Express, React, Node.js, and Mongoose.  Tutorial developed by Beau Carnes.
 
